@@ -1,5 +1,5 @@
 # js_drag
-基于jq 的js拖拽小插件
+基于jq 的js拖拽小插件<br/>
 ![https://github.com/fancaixia/js_drag/blob/master/pic/001.png](https://github.com/fancaixia/js_drag/blob/master/pic/001.png)
 
 案例思路：
