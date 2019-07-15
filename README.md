@@ -50,7 +50,7 @@ window.onload = function (){
 </body>   
 </html>  
 ```
-##### js
+##### drag.js
 ```
 
 function dragFruit(container,content_box){
@@ -167,7 +167,7 @@ function dragFruit(container,content_box){
 
 }
 ```
-##### css
+##### drag.css
 ```
   *{
     list-style: none;
