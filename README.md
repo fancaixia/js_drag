@@ -1,5 +1,6 @@
 # js_drag
 基于jq 的js拖拽小插件
+![https://github.com/fancaixia/js_drag/blob/master/pic/001.png](https://github.com/fancaixia/js_drag/blob/master/pic/001.png)
 
 案例思路：
  > 监听每个li按下，移动，松开事件<br/>
@@ -10,8 +11,9 @@
     没有移入展示区域则重置为初始位置（因为盒子是相对定位 所以初始位置为0，0）
    
 > 展示区域的元素根据进入的先后顺序设置z-index  （层叠顺序）<br/>
-    并且根据先后顺序设置left 位置
-#####html
+    并且根据先后顺序设置left 位置<br/>
+    
+##### html
 ```
 <!DOCTYPE html>   
 <html lang="zh">   
@@ -48,7 +50,7 @@ window.onload = function (){
 </body>   
 </html>  
 ```
-#####js
+##### js
 ```
 
 function dragFruit(container,content_box){
