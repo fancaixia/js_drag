@@ -1,0 +1,34 @@
+*{
+        list-style: none;
+        box-sizing: border-box;
+        font-size:18px;
+        padding: 0;
+        margin:0;
+        user-select: none;
+      }
+      #select_box{
+        border: 1px solid #ddd;
+        overflow: hidden;
+       
+      }
+      ul{
+        width:100%;
+      }
+      li{
+        float: left;
+        width: 33%;
+        text-align: center;
+        position: relative;
+      }
+      li:hover{
+        cursor: pointer;
+        box-shadow:0 0 3px 3px #666;
+        z-index: 10000;
+      }
+      /* content_box */
+      #content_box{
+        margin: 0 50px 50px 50px;
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #0d0;
+      }

@@ -1,0 +1,34 @@
+<!DOCTYPE html>   
+<html lang="zh">   
+<head>   
+    <meta charset="UTF-8">   
+    <title>js拖拽</title>  
+    <link rel='stylesheet' type='text/css' href="./drag.css">
+</head>   
+<body>   
+  <div id="select_box">
+
+      <div id="content_box">
+          快来挑选喜欢的水果吧，只能选一个哦
+      </div>
+
+  </div>
+
+<script src="./jquery-3.3.1.js"></script>
+<script src='./drag.js'></script>
+
+<script>  
+window.onload = function (){
+  
+  let dragObj = new dragFruit('#select_box','#content_box');
+  dragObj.config = {
+            fruit_height : 100,     // 水果盒子的高度
+            container_width : 500,   // 最外层容器宽度设置 container
+            content_padding : 10,  // 容器内边距   
+            content_height : 120,  // 展示区域高度
+        }
+}
+
+</script>   
+</body>   
+</html>  
